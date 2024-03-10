@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1DF6EB2B8FD77A000BE342 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF6EA2B8FD77A000BE342 /* HomeView.swift */; };
+		5A1DF6ED2B8FD78B000BE342 /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF6EC2B8FD78B000BE342 /* TripsView.swift */; };
+		5A1DF6EF2B8FD795000BE342 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF6EE2B8FD795000BE342 /* ReportsView.swift */; };
+		5A1DF6F42B912C59000BE342 /* ReportGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DF6F32B912C59000BE342 /* ReportGenerationView.swift */; };
+		5A1E01312B91433C002CD1DC /* TripModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E012F2B91433C002CD1DC /* TripModel.xcdatamodeld */; };
+		5A1E01342B9589B4002CD1DC /* ReportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E01332B9589B4002CD1DC /* ReportDetailView.swift */; };
 		5A286ECB2B8F028B003D3BC1 /* KM_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A286ECA2B8F028B003D3BC1 /* KM_TrackerApp.swift */; };
-		5A286ECD2B8F028B003D3BC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A286ECC2B8F028B003D3BC1 /* ContentView.swift */; };
 		5A286ECF2B8F028C003D3BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A286ECE2B8F028C003D3BC1 /* Assets.xcassets */; };
 		5A286ED22B8F028C003D3BC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A286ED12B8F028C003D3BC1 /* Preview Assets.xcassets */; };
 		5A286EDC2B8F028C003D3BC1 /* KM_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A286EDB2B8F028C003D3BC1 /* KM_TrackerTests.swift */; };
@@ -34,9 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A1DF6EA2B8FD77A000BE342 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A1DF6EC2B8FD78B000BE342 /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
+		5A1DF6EE2B8FD795000BE342 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		5A1DF6F32B912C59000BE342 /* ReportGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportGenerationView.swift; sourceTree = "<group>"; };
+		5A1E01302B91433C002CD1DC /* TripModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripModel.xcdatamodel; sourceTree = "<group>"; };
+		5A1E01322B915638002CD1DC /* KM-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "KM-Tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5A1E01332B9589B4002CD1DC /* ReportDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailView.swift; sourceTree = "<group>"; };
 		5A286EC72B8F028B003D3BC1 /* KM Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KM Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A286ECA2B8F028B003D3BC1 /* KM_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KM_TrackerApp.swift; sourceTree = "<group>"; };
-		5A286ECC2B8F028B003D3BC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A286ECE2B8F028C003D3BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A286ED12B8F028C003D3BC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A286ED72B8F028C003D3BC1 /* KM TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KM TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +85,12 @@
 		5A286EBE2B8F028B003D3BC1 = {
 			isa = PBXGroup;
 			children = (
+				5A1E01332B9589B4002CD1DC /* ReportDetailView.swift */,
+				5A1E012F2B91433C002CD1DC /* TripModel.xcdatamodeld */,
+				5A1DF6F32B912C59000BE342 /* ReportGenerationView.swift */,
+				5A1DF6EE2B8FD795000BE342 /* ReportsView.swift */,
+				5A1DF6EC2B8FD78B000BE342 /* TripsView.swift */,
+				5A1DF6EA2B8FD77A000BE342 /* HomeView.swift */,
 				5A286EC92B8F028B003D3BC1 /* KM Tracker */,
 				5A286EDA2B8F028C003D3BC1 /* KM TrackerTests */,
 				5A286EE42B8F028D003D3BC1 /* KM TrackerUITests */,
@@ -94,8 +111,8 @@
 		5A286EC92B8F028B003D3BC1 /* KM Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				5A1E01322B915638002CD1DC /* KM-Tracker-Info.plist */,
 				5A286ECA2B8F028B003D3BC1 /* KM_TrackerApp.swift */,
-				5A286ECC2B8F028B003D3BC1 /* ContentView.swift */,
 				5A286ECE2B8F028C003D3BC1 /* Assets.xcassets */,
 				5A286ED02B8F028C003D3BC1 /* Preview Content */,
 			);
@@ -257,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A286ECD2B8F028B003D3BC1 /* ContentView.swift in Sources */,
+				5A1E01312B91433C002CD1DC /* TripModel.xcdatamodeld in Sources */,
+				5A1DF6ED2B8FD78B000BE342 /* TripsView.swift in Sources */,
+				5A1DF6EB2B8FD77A000BE342 /* HomeView.swift in Sources */,
+				5A1DF6EF2B8FD795000BE342 /* ReportsView.swift in Sources */,
+				5A1DF6F42B912C59000BE342 /* ReportGenerationView.swift in Sources */,
+				5A1E01342B9589B4002CD1DC /* ReportDetailView.swift in Sources */,
 				5A286ECB2B8F028B003D3BC1 /* KM_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,13 +444,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KM Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = MPZ2CF3LDZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KM-Tracker-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +462,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kmtracker.KM-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,13 +480,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KM Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = MPZ2CF3LDZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KM-Tracker-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +498,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kmtracker.KM-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -582,6 +620,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A1E012F2B91433C002CD1DC /* TripModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A1E01302B91433C002CD1DC /* TripModel.xcdatamodel */,
+			);
+			currentVersion = 5A1E01302B91433C002CD1DC /* TripModel.xcdatamodel */;
+			path = TripModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5A286EBF2B8F028B003D3BC1 /* Project object */;
 }
